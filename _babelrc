@@ -1,0 +1,20 @@
+{
+    "env": {
+        "dev": {
+            "presets": ["es2015"],
+            "plugins": ["x"],
+            "PAYMENT_API": "http://13.113.198.47:9008/payment",
+            "MEMBER_API": "http://13.113.198.47:9008/member"
+        },
+        "test": {
+            "presets": ["es2015"],
+            "PAYMENT_API": "http://13.113.198.47:9008/payment",
+            "MEMBER_API": "http://13.113.198.47:9008/member"
+        },
+        "prod": {
+            "presets": ["es2015"],
+            "PAYMENT_API": "http://13.113.198.47:9008/payment",
+            "MEMBER_API": "http://13.113.198.47:9008/member"
+        }
+    }
+}
